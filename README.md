@@ -1,3 +1,3 @@
 Test README after setting Github Actions
 
-![workflow](https://github.com/<UserName>/<RepositoryName>/actions/workflows/main.yml/badge.svg)
+![workflow](https://github.com/StuartCAlexander/SEM-TR1-SA/actions/workflows/main.yml/badge.svg)
