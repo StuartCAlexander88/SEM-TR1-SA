@@ -3,7 +3,8 @@ Test README after setting Github Actions
 ![workflow](https://github.com/StuartCAlexander88/SEM-TR1-SA/actions/workflows/main.yml/badge.svg)
 
 # DevOps
-![GitHub Workflow Status develop](https://img.shields.io/github/workflow/status/StuartCAlexander88/SEM-TR1-SA/A workflow for my Hello World App/develop?style=flat-square)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/StuartCAlexander/SEM-TR1-SA/All%20Workflows?branch=develop)
+
 
 
 [![LICENSE](https://img.shields.io/github/license/StuartCAlexander88/devops.svg?style=flat-square)](https://github.com/<github-username>/devops/blob/master/LICENSE)
