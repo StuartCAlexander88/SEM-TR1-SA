@@ -1,4 +1,4 @@
-FROM openjdk:latest
-COPY ./target/classes/com /tmp/com
+FROM openjdk:17
+COPY ./target/SEM-TR1-SA-1.0-SNAPSHOT-jar-with-dependencies.jar /tmp/app.jar
 WORKDIR /tmp
-ENTRYPOINT ["java", "com.napier.SEM.App"]
+ENTRYPOINT ["java", "-jar", "app.jar"]
