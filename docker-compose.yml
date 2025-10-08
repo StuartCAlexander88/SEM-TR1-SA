@@ -1,7 +1,12 @@
+version: '3'
 services:
+  # Application Dockerfile is in same folder which is .
+  app:
+    build: .
+
+  # db is is db folder
   db:
-    image: mysql:8.0
-    container_name: mysql-db
-    environment:
-      MYSQL_ROOT_PASSWORD: rootpass
-      MYSQL_DATABASE: SET08103
+    build: db/test_db/.
+    restart: always
+    ports:
+      - "33060:3306"
